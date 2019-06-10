@@ -1,0 +1,59 @@
+/**GENERAL STYLES **/
+* {
+	box-sizing: border-box;
+}
+
+div, nav, section, footer {
+	background-color: #D3D3D3;
+	margin: 1px;
+}
+
+/** HEADER SECTION STYLES **/
+
+header {
+	width: 100vw;
+	display: inline-flex;
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+}
+
+.donut-title {
+	width: calc(60% - 2px);
+}
+
+nav {
+	width: calc(40% - 2px);
+}
+
+/** MAIN SECTION STYLES **/
+main {
+	position: static;
+	display: flex;
+	flex-direction: column;
+}
+
+/** DESCRIPTION SECTION STYLES **/
+.description {
+	width: 100vw;
+	height: 100vh;
+}
+
+
+/** COMPANY LOGO(SPONSORS) SECTION STYLES **/
+.company-logo {
+	height: 50vh;
+}
+
+/** FEATURES SECTION STYLES **/
+.features {
+	height: 90vh;
+}
+
+
+/** TESTIMONIAL SECTION STYLES **/
+.testimonial {
+	height: 90vh;
+}
+
+/** FOOTER SECTION STYLES **/
