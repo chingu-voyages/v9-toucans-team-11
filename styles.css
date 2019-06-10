@@ -12,6 +12,7 @@ div, nav, section, footer {
 
 header {
 	width: 100vw;
+	height: 70px;
 	display: inline-flex;
 	position: -webkit-sticky;
 	position: sticky;
@@ -36,24 +37,28 @@ main {
 /** DESCRIPTION SECTION STYLES **/
 .description {
 	width: 100vw;
-	height: 100vh;
+	height: 780px;
 }
 
 
 /** COMPANY LOGO(SPONSORS) SECTION STYLES **/
 .company-logo {
-	height: 50vh;
+	height: 400px;
 }
 
 /** FEATURES SECTION STYLES **/
 .features {
-	height: 90vh;
+	height: 780px;
 }
 
 
 /** TESTIMONIAL SECTION STYLES **/
 .testimonial {
-	height: 90vh;
+	height: 780px;
 }
 
 /** FOOTER SECTION STYLES **/
+
+footer {
+	height: 500px;
+}
