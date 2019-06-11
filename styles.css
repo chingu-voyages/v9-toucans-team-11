@@ -1,0 +1,70 @@
+/**GENERAL STYLES **/
+* {
+	box-sizing: border-box;
+}
+
+div, nav, section, footer {
+	background-color: #D3D3D3;
+	margin: 1px;
+}
+
+/** HEADER SECTION STYLES **/
+
+header {
+	width: 100vw;
+	height: 70px;
+	display: inline-flex;
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+}
+
+header .scrolled {
+	background-color: blue;
+}
+
+.donut-title {
+	width: calc(65% - 2px);
+}
+
+nav {
+	width: calc(35% - 2px);
+}
+
+/** MAIN SECTION STYLES **/
+main {
+	position: static;
+	display: flex;
+	flex-direction: column;
+	width: 100vw;
+}
+
+/** DESCRIPTION SECTION STYLES **/
+.description {
+	width: 100vw;
+	height: 780px;
+}
+
+
+/** COMPANY LOGO(SPONSORS) SECTION STYLES **/
+.company-logo {
+	height: 400px;
+}
+
+/** FEATURES SECTION STYLES **/
+.features {
+	height: 780px;
+}
+
+
+/** TESTIMONIAL SECTION STYLES **/
+.testimonial {
+	height: 780px;
+}
+
+/** FOOTER SECTION STYLES **/
+
+footer {
+	width: 100vw;
+	height: 500px;
+}
