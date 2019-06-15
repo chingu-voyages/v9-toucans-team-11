@@ -3,6 +3,7 @@ const header = document.querySelector('header');
 const logoLetters = document.querySelectorAll('.letter');
 const navElems = document.querySelector('nav');
 const signIn = document.querySelector('.sign-in');
+const subNavMenus = document.querySelectorAll('.nav-sub-menu');
 
 
 let scrolled = () => {
@@ -20,4 +21,7 @@ addEventListener('scroll', () => {
 	for (i = 0; i < logoLetters.length; i ++) {
 		logoLetters[i].style.setProperty('fill', scrolled() > 5 ? "#380089" : "#fff");
 	};
+	for (i = 0; i < subNavMenus.length; i ++) {
+		subNavMenus[i].style.boxShadow = scrolled() > 5 ? "0 0 5px rgba(0, 0, 0, 0.5)" : "none";
+	}
 });
