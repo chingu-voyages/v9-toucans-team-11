@@ -60,6 +60,11 @@ ul, li {
 	cursor: pointer;
 }
 
+.nav-main-menu-item > a {
+	color: #fff;
+	text-decoration: none;
+}
+
 
 .nav-main-menu-item:hover .nav-sub-menu {
 	display: block;
