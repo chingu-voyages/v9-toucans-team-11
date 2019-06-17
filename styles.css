@@ -48,13 +48,13 @@ nav {
 	width: 70%;
 	color: rgba(255, 255, 255, 0.75);
 	display: inline;
-	font-size: 13px;
+	font-size: 14px;
 }
 
 .nav-main-menu {
 	display: flex;
 	justify-content: flex-end;
-	margin-right: 100px;
+	margin-right: 80px;
 }
 
 ul, li {
@@ -82,10 +82,13 @@ ul, li {
 }
 
 .sign-in {
+	width: 80px;
+	height: 40px;
 	font-weight: 800;
 	color: #fff;
 	background-color: rgba(225, 217, 237, 0.2);
 	border-radius: 5px;
+	text-align: center;
 }
 
 .nav-sub-menu {
