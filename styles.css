@@ -68,7 +68,7 @@ ul, li {
 	cursor: pointer;
 }
 
-.nav-main-menu-item > a {
+.nav-main-menu-link {
 	text-decoration: none;
 	color: #fff;
 }
@@ -97,7 +97,7 @@ ul, li {
 	width: auto;
 }
 
-.nav-sub-menu > a {
+.nav-sub-menu-link {
 	color: #380089;
 }
 
