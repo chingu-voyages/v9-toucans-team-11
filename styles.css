@@ -1,4 +1,11 @@
 /**GENERAL STYLES **/
+@font-face {
+font-family: 'Bariol Regular';
+font-style: normal;
+font-weight: lighter;
+src: local('Bariol Regular'), url('bariol-regular-2-cufonfonts-webfont/Bariol_Regular_0.woff') format('woff');
+}
+
 * {
 	box-sizing: border-box;
 	margin: 0;
@@ -8,9 +15,9 @@
 }
 
 section, footer {
-	background-color: #D3D3D3;
-	margin: 1px;
+	background-color: #EFF1F3;
 }
+
 
 
 /** HEADER SECTION STYLES **/
@@ -25,6 +32,7 @@ header {
 	background-color: #380089;
 	align-items: center;
 	transition: all 350ms ease-out;
+	z-index: 99;
 }
 
 .donut-title {
@@ -143,11 +151,40 @@ main {
 }
 
 /** DESCRIPTION SECTION STYLES **/
-.description {
+.description-container {
 	width: 100vw;
-	height: 780px;
+	height: 640px;
+	background-color: #380089;
+	display: flex;
 }
 
+.description {
+	width: 100%;
+	height: 80%;
+	padding: 40px 0px 0px 70px;
+
+}
+
+.description-text {
+	width: 100%;
+	color: #fff;
+	font-weight: lighter;
+	font-size: 5rem;
+	line-height: 1.1;
+}
+
+.slack-button img {
+	width: 215px;
+	height: 60px;
+	border-radius: 5px;
+	margin-top: 20px;
+}
+
+.description-img {
+	z-index: 0;
+	padding-right: 170px;
+	align-self: flex-end;
+}
 
 /** COMPANY LOGO(SPONSORS) SECTION STYLES **/
 .company-logo {
