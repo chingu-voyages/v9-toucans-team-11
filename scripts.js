@@ -2,7 +2,7 @@ const bodyTag = document.querySelector('body');
 const header = document.querySelector('header');
 const logoLetters = document.querySelectorAll('.letter');
 const navElems = document.querySelector('nav');
-const navElemsLinks = document.querySelectorAll('.nav-main-menu-item a')
+const navElemsLinks = document.querySelectorAll('.nav-main-menu-link');
 const signIn = document.querySelector('.sign-in');
 const subNavMenus = document.querySelectorAll('.nav-sub-menu');
 
@@ -27,5 +27,4 @@ addEventListener('scroll', () => {
 	for (i = 0; i < subNavMenus.length; i ++) {
 		subNavMenus[i].style.boxShadow = scrolled() > 5 ? "0 0 5px rgba(0, 0, 0, 0.5)" : "none";
 	};
-
 });
