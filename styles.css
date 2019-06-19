@@ -191,9 +191,35 @@ main {
 
 /** COMPANY LOGO(SPONSORS) SECTION STYLES **/
 .company-logo {
-	height: 400px;
+	padding: 60px 0;
+	background: hsl(210, 14%, 95%);
+}
+.logo-container {
+	width:100%;
+	max-width: 1180px;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin: 0 auto;
 }
 
+.logo-list {
+	display: flex;
+	flex-wrap: wrap;
+	-webkit-box-align: center;
+	align-items: center;
+}
+
+.logo-item {
+	width: 25%;
+	text-align: center;
+	padding : 20px 40px;
+}
+
+img.logo-image {
+	height:auto;
+	max-width: 100%;
+	vertical-align: top;
+}
 /** FEATURES SECTION STYLES **/
 .features {
 	height: 780px;
