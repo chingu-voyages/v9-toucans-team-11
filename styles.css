@@ -14,12 +14,6 @@ src: local('Bariol Regular'), url('bariol-regular-2-cufonfonts-webfont/Bariol_Re
 	-webkit-font-smoothing: antialiased;
 }
 
-section, footer {
-	background-color: #EFF1F3;
-}
-
-
-
 /** HEADER SECTION STYLES **/
 
 header {
@@ -220,15 +214,63 @@ img.logo-image {
 	max-width: 100%;
 	vertical-align: top;
 }
+
 /** FEATURES SECTION STYLES **/
 .features {
 	height: 780px;
 }
 
-
 /** TESTIMONIAL SECTION STYLES **/
-.testimonial {
-	height: 780px;
+.testimonials {
+	height: 470px;
+	background-color: #fff;
+	display: flex;
+	justify-content: center;
+	padding: 50px 20px;
+}
+
+.testimonial-card {
+	position: relative;
+	width: calc(33.333% - 40px);
+	background-color: rgba(227, 229, 231, 0.25);
+	border-radius: 10px;
+	margin: 10px;
+	padding: 20px;
+}
+
+.testimonial-text {
+	width: 90%;
+	position: absolute;
+	top: 20px;
+	text-overflow: wrap;
+	white-space: wrap;
+	font-size: 1.5rem;
+	font-weight: bold;
+	color: #380089;
+}
+
+
+.testimonial-person {
+	display: flex;
+	position: absolute;
+	bottom: 20px;
+	width: 90%;
+}
+
+.testimonial-person-picture {
+	margin: 0;
+}
+
+.testimonial-person-picture img {
+	width: 90px;
+	border-radius: 50%;
+	margin-right: 10px;
+}
+
+.testimonial-person-info {
+	margin: 5px;
+	font-size: 1.2rem;
+	color: #808080;
 }
 
 /** FOOTER SECTION STYLES **/
@@ -236,4 +278,5 @@ img.logo-image {
 footer {
 	width: 100vw;
 	height: 500px;
+	background-color: #EFF1F3;
 }
