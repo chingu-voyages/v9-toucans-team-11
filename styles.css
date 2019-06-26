@@ -460,3 +460,18 @@ footer textarea {
     max-width: none;
     width: auto;
   }
+  .footer-left input[type="submit"] {
+    margin-bottom: 40px;
+  }
+
+  .social-media {
+    margin-top: 60px;
+  }
+
+  .footer-left,
+  .footer-middle,
+  .footer-right {
+    width: 100%;
+    padding-right: 0;
+    clear: both;
+  }
