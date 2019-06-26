@@ -212,7 +212,7 @@ main {
 }
 /** FOOTER SECTION STYLES **/
 @media (max-width: 879px) {
- .pre-footer {
+ .pre-footer-image {
     height: 102px;
     margin-top: -35px;
   }
