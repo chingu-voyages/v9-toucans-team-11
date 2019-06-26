@@ -211,8 +211,9 @@ main {
 	height: 236px;
 }
 /** FOOTER SECTION STYLES **/
-
-footer {
-	width: 100vw;
-	height: 500px;
+@media (max-width: 879px) {
+ .pre-footer {
+    height: 102px;
+    margin-top: -35px;
+  }
 }
