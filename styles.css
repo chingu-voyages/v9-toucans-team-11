@@ -205,11 +205,10 @@ main {
 	height: 780px;
 }
 /** PRE-FOOTER IMAGE**/
-.pre-footer {
-	background: url(../img/pre footer image.svg) bottom center repeat-x transparent;
+.pre-footer-image {
 	background-size: auto 100%;
-	margin-top: -35px;
-	height: 102px;
+	margin-top: 40px;
+	height: 236px;
 }
 /** FOOTER SECTION STYLES **/
 
