@@ -221,6 +221,7 @@ img.logo-image {
 }
 
 /** TESTIMONIAL SECTION STYLES **/
+
 .testimonials {
 	height: 470px;
 	background-color: #fff;
@@ -273,12 +274,65 @@ img.logo-image {
 	color: #808080;
 }
 
+.testimonial-card {
+	position: relative;
+	width: calc(33.333% - 40px);
+	background-color: rgba(227, 229, 231, 0.25);
+	border-radius: 10px;
+	margin: 10px;
+	padding: 20px;
+}
+
+.testimonial-text {
+	width: 90%;
+	position: absolute;
+	top: 20px;
+	text-overflow: wrap;
+	white-space: wrap;
+	font-size: 1.5rem;
+	font-weight: bold;
+	color: #380089;
+}
+
+.testimonial-person {
+	display: flex;
+	position: absolute;
+	bottom: 20px;
+	width: 90%;
+}
+
+/** PRE-FOOTER IMAGE**/
+.pre-footer-image {
+	background-size: auto 100%;
+	margin-top: 40px;
+	height: 236px;
+}
+
+.testimonial-person-picture {
+	margin: 0;
+}
+
+.testimonial-person-picture img {
+	width: 90px;
+	border-radius: 50%;
+	margin-right: 10px;
+}
+
+.testimonial-person-info {
+	margin: 5px;
+	font-size: 1.2rem;
+	color: #808080;
+}
+
 /** FOOTER SECTION STYLES **/
 
 footer {
-  display: flex;
-  padding: 40px 0 20px;
-  background: hsl(210, 14%, 95%);
+	width: 100vw;
+	height: 500px;
+	background-color: #EFF1F3;
+	display: flex;
+	padding: 40px 0 20px;
+	background: hsl(210, 14%, 95%);
 }
 
 footer div {
@@ -475,3 +529,9 @@ footer textarea {
     padding-right: 0;
     clear: both;
   }
+  
+   .pre-footer-image {
+    height: 102px;
+    margin-top: -35px;
+  }
+
