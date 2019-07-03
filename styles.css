@@ -67,10 +67,6 @@ ul, li {
 	text-decoration: none;
 	color: #fff;
 }
-/*
-.nav-main-menu-link:hover a {
-	color: #7F50FF;
-}*/
 
 .nav-main-menu-item:hover .nav-sub-menu {
 	display: block;
