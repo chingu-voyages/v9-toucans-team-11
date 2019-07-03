@@ -514,7 +514,7 @@ footer textarea {
 @media (max-width: 879px) {
 	/*Header*/
 	header {
-		height: 80px;
+		height: 80px!important;
 	}
 	/*Donut title in Header */
 	.donut-title {
@@ -537,7 +537,7 @@ footer textarea {
 		font-weight: 800;
 		font-size: 1.2rem;
 		color: #fff;
-		background: none;
+		background-color: transparent!important;
 	}
 	.hamburger-icon {
 		display: block;
