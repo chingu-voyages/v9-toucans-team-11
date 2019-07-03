@@ -60,8 +60,7 @@ addEventListener('scroll', () => {
 	if (!mediaQueryMatch()){
 		signIn.style.setProperty('background', scrolled() > 5 ? "rgba(225, 217, 237, 1)" : "rgba(225, 217, 237, 0.2)");
 	} else {
-		signIn.style.setProperty('background', "");
-		// scrolled() > 5 ? "#fff" : "#380089"
+		signIn.style.setProperty('background', "none");
 	}
 	for (i = 0; i < logoLetters.length; i ++) {
 		logoLetters[i].style.setProperty('fill', scrolled() > 5 ? "#380089" : "#fff");
