@@ -67,6 +67,10 @@ ul, li {
 	text-decoration: none;
 	color: #fff;
 }
+/*
+.nav-main-menu-link:hover a {
+	color: #7F50FF;
+}*/
 
 .nav-main-menu-item:hover .nav-sub-menu {
 	display: block;
@@ -388,7 +392,7 @@ a {
   transition: color .3s;
 }
 
-a:hover {
+footer a:hover {
   color: hsl(265, 100%, 27%);
 }
 
