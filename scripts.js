@@ -55,10 +55,14 @@ addEventListener('scroll', () => {
 	} else if (scrolled () < 5 && !mediaQueryMatch()) {
 		header.style.setProperty('height', "140px");
 	}
-
 	header.style.boxShadow = scrolled() > 5 ? "0 0 5px rgba(0, 0, 0, 0.5)" : "none";
 	navElems.style.setProperty('color', scrolled() > 5 ? "#380089" : "#fff");
-	signIn.style.setProperty('background', scrolled() > 5 ? "rgba(225, 217, 237, 1)" : "rgba(225, 217, 237, 0.2)");
+	if (!mediaQueryMatch()){
+		signIn.style.setProperty('background', scrolled() > 5 ? "rgba(225, 217, 237, 1)" : "rgba(225, 217, 237, 0.2)");
+	} else {
+		signIn.style.setProperty('background', "");
+		// scrolled() > 5 ? "#fff" : "#380089"
+	}
 	for (i = 0; i < logoLetters.length; i ++) {
 		logoLetters[i].style.setProperty('fill', scrolled() > 5 ? "#380089" : "#fff");
 	};

@@ -86,6 +86,11 @@ ul, li {
 	text-align: center;
 }
 
+.hamburger-icon {
+	display: none;
+	font-size: 2rem;
+}
+
 .nav-sub-menu {
 	display: none;
 	position: absolute;
@@ -514,6 +519,26 @@ footer textarea {
 	}
 	.donut-logo > svg {
 		width: 100px;
+	}
+
+	/*Nav menu*/
+	.nav-main-menu {
+		margin-right: 20px;
+	}
+	.nav-main-menu-item {
+		display: none;
+	}
+	.sign-in {	
+		display: block;
+		font-weight: 800;
+		font-size: 1.2rem;
+		color: #fff;
+		background: none;
+	}
+	.hamburger-icon {
+		display: block;
+		font-size: 1.25rem;
+		padding-top: 17px;
 	}
 
 	/*Testimonial section*/
