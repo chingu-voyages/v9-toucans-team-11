@@ -514,7 +514,7 @@ footer textarea {
 @media (max-width: 879px) {
 	/*Header*/
 	header {
-		height: 80px!important;
+		height: 80px;
 	}
 	/*Donut title in Header */
 	.donut-title {
