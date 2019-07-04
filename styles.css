@@ -60,6 +60,7 @@ ul, li {
 	position: relative;
 	padding: 13px 14px;
 	cursor: pointer;
+	white-space: nowrap;
 }
 
 .nav-main-menu-link {
@@ -83,6 +84,11 @@ ul, li {
 	background-color: rgba(225, 217, 237, 0.2);
 	border-radius: 5px;
 	text-align: center;
+}
+
+.hamburger-icon {
+	display: none;
+	font-size: 2rem;
 }
 
 .nav-sub-menu {
@@ -382,7 +388,7 @@ a {
   transition: color .3s;
 }
 
-a:hover {
+footer a:hover {
   color: hsl(265, 100%, 27%);
 }
 
@@ -506,6 +512,40 @@ footer textarea {
 /* max 879px */
 
 @media (max-width: 879px) {
+	/*Header*/
+	header {
+		height: 80px!important;
+	}
+	/*Donut title in Header */
+	.donut-title {
+		width: 30%;
+		margin-left: 30px;
+	}
+	.donut-logo > svg {
+		width: 100px;
+	}
+
+	/*Nav menu*/
+	.nav-main-menu {
+		margin-right: 20px;
+	}
+	.nav-main-menu-item {
+		display: none;
+	}
+	.sign-in {	
+		display: block;
+		font-weight: 800;
+		font-size: 1.2rem;
+		color: #fff;
+		background-color: transparent!important;
+	}
+	.hamburger-icon {
+		display: block;
+		font-size: 1.25rem;
+		padding-top: 17px;
+	}
+
+	/*Testimonial section*/
 	.testimonials {
 		display: flex;
 		flex-direction: column;
