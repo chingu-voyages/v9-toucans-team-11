@@ -60,6 +60,7 @@ ul, li {
 	position: relative;
 	padding: 13px 14px;
 	cursor: pointer;
+	white-space: nowrap;
 }
 
 .nav-main-menu-link {
