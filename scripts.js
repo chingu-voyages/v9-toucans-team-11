@@ -39,12 +39,25 @@ let scrolled = () => {
 	return Math.floor(dec * 100);
 }
 
+let mediaQueryMatch = () => {
+	let windowWidth = window.innerWidth;
+	return windowWidth < 879;
+}
+
 addEventListener('scroll', () => {
 	header.style.setProperty('background', scrolled() > 5 ? "rgba(255, 255, 255, 1)" : "#380089");
-	header.style.setProperty('height', scrolled() > 5 ? "80px" : "140px");
+	if (scrolled() > 5 && mediaQueryMatch()) {
+		header.style.setProperty('height', "60px");
+	} else if (scrolled () > 5 && !mediaQueryMatch()) {
+		header.style.setProperty('height', "80px");
+	} else if (scrolled () < 5 && mediaQueryMatch()) {
+		header.style.setProperty('height', "80px");
+	} else if (scrolled () < 5 && !mediaQueryMatch()) {
+		header.style.setProperty('height', "140px");
+	}
 	header.style.boxShadow = scrolled() > 5 ? "0 0 5px rgba(0, 0, 0, 0.5)" : "none";
+	signIn.style.setProperty('background', scrolled() > 5 ? "#E1D9ED" : "rgba(255, 255, 255, 0.15)");
 	navElems.style.setProperty('color', scrolled() > 5 ? "#380089" : "#fff");
-	signIn.style.setProperty('background', scrolled() > 5 ? "rgba(225, 217, 237, 1)" : "rgba(225, 217, 237, 0.2)");
 	for (i = 0; i < logoLetters.length; i ++) {
 		logoLetters[i].style.setProperty('fill', scrolled() > 5 ? "#380089" : "#fff");
 	};
@@ -55,6 +68,8 @@ addEventListener('scroll', () => {
 		subNavMenus[i].style.boxShadow = scrolled() > 5 ? "0 0 5px rgba(0, 0, 0, 0.5)" : "none";
 	};
 });
+
+
 
 testimonialDatas.forEach((testimonial) => {
 	testimonials.innerHTML += `
