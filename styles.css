@@ -2,7 +2,6 @@
 @font-face {
 font-family: 'Bariol Regular';
 font-style: normal;
-font-weight: lighter;
 src: local('Bariol Regular'), url('bariol-regular-2-cufonfonts-webfont/Bariol_Regular_0.woff') format('woff');
 }
 
@@ -31,7 +30,7 @@ header {
 
 .donut-title {
 	width: 30%;
-	margin-left: 70px;
+	margin-left: 30px;
 }
 
 .donut-logo > svg {
@@ -48,7 +47,7 @@ nav {
 .nav-main-menu {
 	display: flex;
 	justify-content: flex-end;
-	margin-right: 80px;
+	margin-right: 20px;
 }
 
 ul, li {
@@ -84,6 +83,9 @@ ul, li {
 	background-color: rgba(225, 217, 237, 0.2);
 	border-radius: 5px;
 	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-top: 2px;
 }
 
 .hamburger-icon {
@@ -156,7 +158,8 @@ main {
 /** DESCRIPTION SECTION STYLES **/
 .description-container {
 	width: 100vw;
-	height: 640px;
+	height: auto;
+	min-height: 680px;
 	background-color: #380089;
 	display: flex;
 }
@@ -164,14 +167,13 @@ main {
 .description {
 	width: 100%;
 	height: 80%;
-	padding: 40px 0px 0px 70px;
-
+	padding: 40px 0px 0px 20px;
 }
 
 .description-text {
 	width: 100%;
 	color: #fff;
-	font-weight: lighter;
+	font-weight: 100;
 	font-size: 5rem;
 	line-height: 1.1;
 }
@@ -185,7 +187,7 @@ main {
 
 .description-img {
 	z-index: 0;
-	padding-right: 170px;
+	padding-right: 20px;
 	align-self: flex-end;
 }
 
@@ -325,19 +327,20 @@ img.logo-image {
 
 
 /** PRE-FOOTER IMAGE**/
-.pre-footer-image {
+.pre-footer {
 	background-size: auto 100%;
 	background-image: url("images/pre-footer-image.svg");
 	background-repeat: repeat-x;
 	margin-top: 40px;
 	height: 236px;
+	width: 100vw;
 }
 
 
 /** FOOTER SECTION STYLES **/
 footer {
 	width: 100vw;
-	height: 500px;
+	height: auto;
 	background-color: #EFF1F3;
 	display: flex;
 	padding: 40px 0 20px;
@@ -522,12 +525,12 @@ footer textarea {
 		margin-left: 30px;
 	}
 	.donut-logo > svg {
-		width: 100px;
+		width: 130px;
 	}
 
 	/*Nav menu*/
 	.nav-main-menu {
-		margin-right: 20px;
+		margin-right: 10px;
 	}
 	.nav-main-menu-item {
 		display: none;
@@ -538,13 +541,32 @@ footer textarea {
 		font-size: 1.2rem;
 		color: #fff;
 		background-color: transparent!important;
+		padding-top: 20px;
 	}
 	.hamburger-icon {
 		display: block;
-		font-size: 1.25rem;
 		padding-top: 17px;
+		color: #fff;
+		font-size: 2rem;
 	}
 
+	/*Description Section*/
+	.description-container {
+		display: flex;
+		flex-direction: column;
+	}
+	.description {
+		width: 100%;
+		padding: 20px;
+	}
+	.description-text {
+		font-size: 2.5rem;
+		width: 100%;
+	}
+	.description-img {
+		padding-right: 80px;
+	}
+	
 	/*Testimonial section*/
 	.testimonials {
 		display: flex;
@@ -554,6 +576,9 @@ footer textarea {
 	.testimonial-card {
 		width: 100%;
 		height: 400px;
+	}
+	.testimonial-person-info {
+		padding-top: 20px;
 	}
 
 
@@ -583,8 +608,9 @@ footer textarea {
     clear: both;
   }
   
-   .pre-footer-image {
+   .pre-footer {
     height: 102px;
+    width: 100vw;
     margin-top: -35px;
     background-image: url("images/pre-footer-image.svg");
     background-repeat: repeat-x;
