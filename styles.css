@@ -634,7 +634,7 @@ footer textarea {
 	margin: auto;
 	max-width: 10px;
 }
-.donut-cycle__steps{
+.donut-cycle__step-general{
 	max-width: 330 px;
 	margin: auto;
 }
@@ -642,7 +642,7 @@ footer textarea {
 	margin-top: 70px;
 }
 @media (min-width: 600px){
-.donut-cycle_chart_img,.donut-cycle_steps{
+.donut-cycle_chart_img,.donut-cycle_step-general{
 	max-width: 500px;
  }
 }
