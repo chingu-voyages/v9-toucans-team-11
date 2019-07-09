@@ -684,7 +684,7 @@ h4{
 	line-height: 1.1;
 	font-weight: 400;
 }
-.donut-cycle__step-blurb{
+.donut-cycle__step-text{
 	font-size: 1.5rem;
 	line-height: calc(28.8/24);
 	margin: 0.5em 0;
