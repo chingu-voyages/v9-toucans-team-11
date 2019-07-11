@@ -207,29 +207,24 @@ main {
 .logo-list {
 	display: flex;
 	flex-flow: wrap;
-	-webkit-box-align: center;
-	align-items: center;
 	justify-content: center;
 
 }
 
 .logo-item {
-	max-height: 150px;
-	width: auto;
-	text-align: center;
+
 	padding : 20px 20px;
 }
 
 .logo-image {
 	height: 50px;
-	max-width: 100%;
-	vertical-align: top;
 }
 
 /** FEATURES SECTION STYLES **/
 .features {
 	height: auto;
 }
+
 .feature_cycle_container {
 	padding: 100px 50px;
 }
@@ -242,16 +237,19 @@ main {
 	height: 100%;
 	margin-left: 20%;
 }
+
 .donut-cycle_chart_img svg {
 	margin: auto;
 	width: 60%;
 }
+
 .donut-cycle__step-general {
 	position: absolute;
 	width: 100%;
 	height: 100%;
 	top: 0;
 }
+
 .donut-cycle__step {
 	width: 300px;
 	font-size: 1.25rem;
@@ -263,35 +261,42 @@ main {
 	font-size: 2rem;
 	font-weight: 600;
 }
+
 .donut-cycle__step p {
 	color: #380089;
 	margin-bottom: 10px;
 	font-size: 1.5rem;
 	font-weight: 200;
 }
+
 .donut-cycle__step:nth-child(1) {
 	position: absolute;
 	top: 0;
 	right: 0;
 }
+
 .donut-cycle__step:nth-child(2) {
 	position: absolute;
 	bottom: 20px;
 	right: 0;
 }
+
 .donut-cycle__step:nth-child(3) {
 	position: absolute;
 	bottom: 20px;
 	left: 0;
 }
+
 .donut-cycle__step:nth-child(4) {
 	position: absolute;
 	top: 0;
 	left: 0;
 }
+
 .donut-cycle__step-link {
 	font-weight: 600;
 }
+
 .donut-cycle__step-link .fas {
 	vertical-align: text-bottom;
 	font-weight: 600;
@@ -395,7 +400,6 @@ main {
 	color: #808080;
 }
 
-
 /** PRE-FOOTER IMAGE**/
 .pre-footer {
 	background-size: auto 100%;
@@ -405,7 +409,6 @@ main {
 	height: 236px;
 	width: 100vw;
 }
-
 
 /** FOOTER SECTION STYLES **/
 footer {
@@ -642,37 +645,42 @@ footer textarea {
 
 	/*Sponsoring Company Logo section*/
 	.logo-image {
-	height: 40px;
-	max-width: 100%;
-	vertical-align: top;
+		height: 40px;
 	}
 
 	/*Feature section*/
 	.feature {
 		height: auto;
 	}
+
 	.donut-cycle__chart_img svg {
 		width: 70%;
 		margin-left: 15%;
 	}
+
 	.donut-cycle__step-general {
 		position: static;
 		margin-top: 100px;
 	}
+
 	.donut-cycle__step {
 		width: 70%;
 		margin-left: 15%;
 		margin-bottom: 50px;
 	}
+
 	.donut-cycle__step:nth-child(1) {
 		position: static;
 	}
+
 	.donut-cycle__step:nth-child(2) {
 		position: static;
 	}
+
 	.donut-cycle__step:nth-child(3) {
 		position: static;
 	}
+
 	.donut-cycle__step:nth-child(4) {
 		position: static;
 	}
@@ -683,47 +691,47 @@ footer textarea {
 		flex-direction: column;
 		height: auto;
 	}
+
 	.testimonial-card {
 		width: 100%;
 		height: 400px;
 	}
+
 	.testimonial-person-info {
 		padding-top: 20px;
 	}
 
+    footer,
+    .footer-container {
+        display: block;
+    }
 
-  footer,
-  .footer-container {
-    display: block;
-  }
+    .footer-container {
+	    margin: 0;
+	    max-width: none;
+	    width: auto;
+    }
+    .footer-left input[type="submit"] {
+    	margin-bottom: 40px;
+    }
 
-  .footer-container {
-    margin: 0;
-    max-width: none;
-    width: auto;
-  }
-  .footer-left input[type="submit"] {
-    margin-bottom: 40px;
-  }
+    .social-media {
+    	margin-top: 60px;
+    }
 
-  .social-media {
-    margin-top: 60px;
-  }
-
-  .footer-left,
-  .footer-middle,
-  .footer-right {
-    width: 100%;
-    padding-right: 0;
-    clear: both;
-  }
+    .footer-left,
+    .footer-middle,
+    .footer-right {
+	    width: 100%;
+	    padding-right: 0;
+	    clear: both;
+    }
   
-   .pre-footer {
-    height: 102px;
-    width: 100vw;
-    margin-top: -35px;
-    background-image: url("images/pre-footer-image.svg");
-    background-repeat: repeat-x;
-  }
-
+    .pre-footer {
+	    height: 102px;
+	    width: 100vw;
+	    margin-top: -35px;
+	    background-image: url("images/pre-footer-image.svg");
+	    background-repeat: repeat-x;
+    }
 }

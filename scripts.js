@@ -14,7 +14,6 @@ let testimonialDatas = [
 		"name" : "Stacey Nordwall",
 		"company" : "Culture Amp",
 		"title" : "People Program Lead"
-
 	},
 	{
 		"text" : "Donut helps us strengthen personal connections and InVision's company culture",
@@ -22,7 +21,6 @@ let testimonialDatas = [
 		"name" : "Clark Valberg",
 		"company" : "InVision",
 		"title" : "CEO and CO-Founder"
-
 	},
 	{
 		"text" : "Embark improves every stage of the employee experience with Donut.",
@@ -30,10 +28,8 @@ let testimonialDatas = [
 		"name" : "Sarah Rentfro",
 		"company" : "Embark",
 		"title" : "EVP of People Development"
-
 	}
 ];
-
 
 let scrolled = () => {
 	let dec = scrollY / (bodyTag.scrollHeight - innerHeight);
@@ -44,6 +40,7 @@ let mediaQueryMatch = () => {
 	let windowWidth = window.innerWidth;
 	return windowWidth < 879;
 }
+
 
 addEventListener('scroll', () => {
 	header.style.setProperty('background', scrolled() > 5 ? "rgba(255, 255, 255, 1)" : "#380089");
@@ -72,7 +69,6 @@ addEventListener('scroll', () => {
 });
 
 
-
 testimonialDatas.forEach((testimonial) => {
 	testimonials.innerHTML += `
 			<div class="testimonial-card">
@@ -88,6 +84,5 @@ testimonialDatas.forEach((testimonial) => {
 					</div>
 				</div>
 			</div>
-
 	`
 })
